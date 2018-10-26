@@ -1,0 +1,10 @@
+{
+  "name": "surfellent",
+  "version": "1.0.0",
+  "description": "Surfellent Frontend",
+  "main": "index.js",
+  "repository": "git@gitlab.com:surfellent/frontend.git",
+  "author": "Surfellent Team",
+  "license": "UNLICENSED",
+  "private": true
+}
