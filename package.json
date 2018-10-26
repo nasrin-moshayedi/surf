@@ -6,5 +6,10 @@
   "repository": "git@gitlab.com:surfellent/frontend.git",
   "author": "Surfellent Team",
   "license": "UNLICENSED",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "next": "^7.0.2",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
+  }
 }
