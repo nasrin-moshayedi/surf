@@ -8,3 +8,7 @@ yarn-error.log*
 
 # IDE-related files
 /.idea
+
+# next.js build directories
+.next
+out
