@@ -3,6 +3,7 @@ import {Provider} from 'react-redux';
 import App, {Container} from 'next/app';
 import withRedux from 'next-redux-wrapper';
 import initStore from '../store';
+import 'semantic-ui-css/semantic.min.css';
 
 class MyApp extends App {
   static async getInitialProps({Component, ctx}) {
