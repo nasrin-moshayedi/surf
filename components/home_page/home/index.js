@@ -1,5 +1,6 @@
 import {Component} from 'react';
 import OverviewPicture from '../overview_picture';
+import LatestNews from './../latest_news';
 
 class HomeIndex extends Component {
   render() {
@@ -7,6 +8,7 @@ class HomeIndex extends Component {
       <div>
 
         <OverviewPicture/>
+        <LatestNews/>
 
       </div>
     );
