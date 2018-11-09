@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Menu, Segment} from 'semantic-ui-react';
+import './menu.css';
 
 export default class MainMenu extends Component {
   state = {activeItem: 'home'};
@@ -8,8 +9,8 @@ export default class MainMenu extends Component {
   render() {
     const {activeItem} = this.state;
     return (
-      <Segment inverted textAlign='center'>
-        <Menu pointing borderless secondary size='massive'>
+      <Segment inverted className='MenuSegment'>
+        <Menu pointing borderless inverted secondary size='massive'>
           <Menu.Item
             name='home'
             active={activeItem === 'home'}
