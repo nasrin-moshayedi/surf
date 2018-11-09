@@ -5,13 +5,13 @@ import './latest_news.css';
 const LatestNews = () => (
   <Grid className='NewsGrid'>
     <Grid.Column largeScreen={12} computer={12} tablet={11} mobile={9} textAlign='center' verticalAlign='middle'>
-      <h1>latest news</h1>
-      <h2>Anti-icingspraycoating</h2>
-      <h5>THENEW ANTIʊICINGAEROSOLINBOTH
-        BLACKANDTRANSPARENTVERSIONSA</h5>
-      <p>read more</p>
+      <h1 className='BlueTitle'>latest news</h1>
+      <h2 className='BlueTitle'>Anti-icingspraycoating</h2>
+      <h3 className='GreyText'>THENEW ANTI ICINGAEROSOLINBOTH
+        BLACK AND TRANSPARENT VERSIONSA</h3>
+      <h3 className='ReadMore'>read more</h3>
     </Grid.Column>
-    <Grid.Column largeScreen={4} computer={4} tablet={5} mobile={7}>
+    <Grid.Column largeScreen={4} computer={4} tablet={5} mobile={7} className='PictureGrid'>
       <Image src='/static/images/Aerosol.jpg'/>
     </Grid.Column>
   </Grid>
