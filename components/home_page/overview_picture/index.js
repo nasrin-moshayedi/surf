@@ -1,8 +1,9 @@
 import React from 'react';
-import {Header, Image, Segment} from 'semantic-ui-react';
+import {Header, Image} from 'semantic-ui-react';
+import './overview_picture.css';
 
 const HomeImage = () => (
-  <Segment textAlign='center' padded='none' basic>
+  <div className='OverviewDiv'>
     <Image src='/static/images/airplane.jpg' fluid/>
     <Header as='h1'>
       Over View
@@ -19,7 +20,7 @@ const HomeImage = () => (
     <p>
       read more
     </p>
-  </Segment>
+  </div>
 );
 
 export default HomeImage;
