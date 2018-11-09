@@ -2,7 +2,7 @@ import React from 'react';
 import {Header, Image, Segment} from 'semantic-ui-react';
 
 const HomeImage = () => (
-  <Segment textAlign='center'>
+  <Segment textAlign='center' padded='none' basic>
     <Image src='/static/images/airplane.jpg' fluid/>
     <Header as='h1'>
       Over View
