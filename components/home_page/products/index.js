@@ -8,7 +8,7 @@ class ProductIndex extends Component {
     return (
       <div>
         <h1 className='DarkGrey CenterText'>Products</h1>
-        <div className='ProductDiv'>
+        <div className='ProductDiv PaddingBottom'>
           <SideProduct/>
           {[0, 1].map(item => <Product key={item}/>)}
           <SideProduct/>
