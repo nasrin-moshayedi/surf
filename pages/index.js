@@ -1,4 +1,4 @@
-import {Component} from 'react';
+import React, {Component} from 'react';
 import MyLayout from '../layouts/my_layout';
 import Home from '../components/home_page/home';
 

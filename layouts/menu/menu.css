@@ -6,7 +6,7 @@
   display: flex;
   justify-content: space-around;
   border-radius: 0 !important;
-  margin-bottom: 0px !important;
+  margin-bottom: 0 !important;
 }
 
 .MenuItem:active {

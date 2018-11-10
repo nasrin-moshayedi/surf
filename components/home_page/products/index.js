@@ -1,4 +1,4 @@
-import {Component} from 'react';
+import React, {Component} from 'react';
 import Product from './product';
 import SideProduct from './side_product';
 import './product.css';
