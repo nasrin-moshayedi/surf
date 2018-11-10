@@ -1,0 +1,15 @@
+.ProductDiv {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+  padding-bottom: 50px;
+}
+
+.ProductCard {
+  margin: 10px !important;
+  box-shadow: 0 0 !important;
+}
+
+.SideProductPadding {
+  padding: 10px !important;
+}
