@@ -30,3 +30,11 @@
   text-align: center;
   padding: 70px 0 50px !important;
 }
+
+.WhiteBackground {
+  background: #fff !important;
+}
+
+.PaddingBottom {
+  padding-bottom: 70px !important;
+}
