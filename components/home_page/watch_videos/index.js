@@ -5,7 +5,7 @@ import './videos.css';
 const src = 'static/images/a1.png';
 
 const Videos = () => (
-  <div className='DarkBackground VideosBottom'>
+  <div className='DarkBackground PaddingBottom'>
     <h1 className='BlueTitle CenterText'>Watch Videos</h1>
     <Grid textAlign='center'>
       <Image.Group>
