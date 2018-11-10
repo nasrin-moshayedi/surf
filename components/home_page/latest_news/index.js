@@ -3,7 +3,7 @@ import {Grid, Image} from 'semantic-ui-react';
 import './latest_news.css';
 
 const LatestNews = () => (
-  <Grid className='NewsGrid'>
+  <Grid className='NewsGrid DarkBackground'>
     <Grid.Column largeScreen={12} computer={12} tablet={11} mobile={9} textAlign='center' verticalAlign='middle'>
       <h1 className='BlueTitle'>latest news</h1>
       <h2 className='BlueTitle'>Anti-icingspraycoating</h2>
