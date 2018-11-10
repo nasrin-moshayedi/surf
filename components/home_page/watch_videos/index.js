@@ -9,11 +9,9 @@ const Videos = () => (
     <h1 className='BlueTitle CenterText'>Watch Videos</h1>
     <Grid textAlign='center'>
       <Image.Group>
-        <Image src={src} size='small'/>
-        <Image src={src} size='small'/>
+        {[0, 1].map(item => <Image src={src} size='small'/>)}
         <Image src={src} size='medium'/>
-        <Image src={src} size='small'/>
-        <Image src={src} size='small'/>
+        {[3, 4].map(item => <Image src={src} size='small'/>)}
       </Image.Group>
     </Grid>
   </div>
