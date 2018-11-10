@@ -3,6 +3,7 @@ import OverviewPicture from '../overview_picture';
 import LatestNews from './../latest_news';
 import Products from './../products';
 import Videos from './../watch_videos';
+import Services from './../services';
 
 class HomeIndex extends Component {
   render() {
@@ -12,6 +13,7 @@ class HomeIndex extends Component {
         <LatestNews/>
         <Products/>
         <Videos/>
+        <Services/>
       </div>
     );
   }
