@@ -1,8 +1,7 @@
 .ProductDiv {
   display: flex;
   justify-content: center;
-  margin: 30px auto;
-  padding-bottom: 50px;
+  margin: 30px auto 0;
 }
 
 .ProductCard {
