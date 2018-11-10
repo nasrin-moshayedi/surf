@@ -5,7 +5,7 @@ import './overview_picture.css';
 const HomeImage = () => (
   <div className='OverviewDiv'>
     <Image src='/static/images/airplane.jpg' fluid/>
-    <Header as='h1'>
+    <Header as='h1' className='DarkGrey'>
       Over View
     </Header>
     <p>
@@ -17,7 +17,7 @@ const HomeImage = () => (
       hasstartedmanufacturinganti-icingsurfaceswithextremelylow iceadhesion
       andexceptionaldurabilityundersevereenvironmentalconditions.
     </p>
-    <p>
+    <p className='ReadMore'>
       read more
     </p>
   </div>
