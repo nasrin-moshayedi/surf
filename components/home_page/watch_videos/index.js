@@ -7,12 +7,9 @@ const src = 'static/images/a1.png';
 const Videos = () => (
   <div className='DarkBackground PaddingBottom'>
     <h1 className='BlueTitle CenterText'>Watch Videos</h1>
-    <Grid textAlign='center'>
-      <Image.Group>
-        {[0, 1].map(item => <Image src={src} size='small'/>)}
-        <Image src={src} size='medium'/>
-        {[3, 4].map(item => <Image src={src} size='small'/>)}
-      </Image.Group>
+    <Grid container textAlign='center' verticalAlign='middle'>
+      {[0, 1, 2, 3, 4].map(item => <Grid.Column mobile={12} tablet={3} computer={3}><Image src={src}
+                                                                                           size='small'/></Grid.Column>)}
     </Grid>
   </div>
 );
