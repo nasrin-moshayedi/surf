@@ -10,7 +10,7 @@ class ProductIndex extends Component {
       <Grid container className='ProductDiv PaddingBottom'>
         <Grid.Column width={16}><h1 className='DarkGrey CenterText'>Products</h1></Grid.Column>
         {[0, 1, 2, 3].map(item =>
-          <Grid.Column mobile={16} tablet={8} computer={4}><Product key={item} large='ProductCard'/></Grid.Column>
+          <Grid.Column mobile={16} tablet={8} computer={4}><Product key={item} large={false}/></Grid.Column>
         )}
       </Grid>
     );

@@ -2,11 +2,13 @@ import React, {Component} from 'react';
 import {Card, Icon, Image} from 'semantic-ui-react';
 import './product.css';
 
+let large;
 
 class Product extends Component {
   render() {
+    this.props.large ? (large = 'ProductPadding') : (large = 'ProductCard');
     return (
-      <Card className={this.props.large}>
+      <Card className={large}>
         <Image src='/static/images/Aerosol.jpg'/>
         <Card.Content>
           <Card.Header><Icon name='product hunt' className='BlueTitle'/>product name</Card.Header>
