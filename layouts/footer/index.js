@@ -4,7 +4,7 @@ import './footer.css';
 
 const Footer = () => (
   <div className='DarkBackground'>
-    <Grid container textAlign='left' className=''>
+    <Grid container textAlign='left' className='FooterGrid'>
       <Grid.Column mobile={16} tablet={8} computer={4} className='GreyText'>
         <h3 className='BlueTitle'>Connections</h3>
         <Grid>
@@ -55,6 +55,32 @@ const Footer = () => (
       </Grid.Column>
       <Grid.Column mobile={16} tablet={8} computer={4} className='GreyText'>
         <h3 className='BlueTitle'>Address</h3>
+        <Grid>
+          <Grid.Column width={1}>
+            <Icon name='location arrow' size='small'/>
+          </Grid.Column>
+          <Grid.Column width={10}>
+            <p>UH TechnologyPark 5000
+              GulfFreeway Bldg5, Rm 144
+              Houston,TX,77023</p>
+          </Grid.Column>
+        </Grid>
+        <Grid>
+          <Grid.Column width={1}>
+            <Icon name='phone' size='small'/>
+          </Grid.Column>
+          <Grid.Column width={10}>
+            <p>+1(617)416-2782</p>
+          </Grid.Column>
+        </Grid>
+        <Grid>
+          <Grid.Column width={1}>
+            <Icon name='mail' size='small'/>
+          </Grid.Column>
+          <Grid.Column width={10}>
+            <p>info@surfellent.com</p>
+          </Grid.Column>
+        </Grid>
       </Grid.Column>
     </Grid>
   </div>
