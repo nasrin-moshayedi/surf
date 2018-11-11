@@ -1,14 +1,14 @@
 .OurTeamPicture {
   background: url('/static/images/people.jpg') center;
   background-size: cover;
-  height: 700px;
+  height: 765px;
   margin-top: 60px !important;
 }
 
 .OurTeamOpaity {
   display: block;
   width: 100%;
-  height: 697px;
+  height: 777px;
   position: absolute;
   top: 49px;
   background: #b9b9b79c;
