@@ -9,6 +9,8 @@
   box-shadow: 0 0 !important;
 }
 
-.SideProductPadding {
+.ProductPadding {
+  margin: 10px !important;
+  box-shadow: 0 0 !important;
   padding: 10px !important;
 }
