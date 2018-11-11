@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import MyLayout from '../layouts/my_layout';
 import Home from '../components/home_page/home';
-import Partner from '../components/home_page/partner';
+
+// import Partner from '../components/home_page/partner';
 
 class Index extends Component {
   render() {
@@ -10,7 +11,7 @@ class Index extends Component {
         <MyLayout>
           <Home/>
         </MyLayout>
-        <Partner/>
+        {/*<Partner/>*/}
       </div>
     );
   }
