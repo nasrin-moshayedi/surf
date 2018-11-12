@@ -1,0 +1,27 @@
+.CardPicture {
+  background: url('/static/images/HadiGhasemi.jpg') center !important;
+  background-size: cover !important;
+  display: block !important;
+}
+
+.CardImage {
+  padding: 20px !important;
+}
+
+.CardContent {
+  margin-top: 9px !important;
+  text-align: left !important;
+}
+
+.Description {
+  font-size: 12px !important;
+}
+
+.TeamCardGrid {
+  padding-bottom: 70px !important;
+}
+
+.TeamMemberGrid {
+  display: flex !important;
+  justify-content: center !important;
+}
