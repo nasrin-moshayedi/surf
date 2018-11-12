@@ -4,7 +4,7 @@ import './team_story.css';
 
 const TeamStory = () => (
   <div className='Picture OurTeamPicture'>
-    <div className='PictureOpaity OurTeamOpaity'>
+    <div className='PictureOpaity'>
       <Grid container textAlign='center' verticalAlign='middle' className='TextGrid'>
         <Grid.Column width={10} className='PictureText'>
           <h1 className='PictureTextTitle'>Our Story</h1>
