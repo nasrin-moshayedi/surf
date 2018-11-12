@@ -2,7 +2,7 @@ import React from 'react';
 import {Grid} from 'semantic-ui-react';
 import './team_story.css';
 
-const LatestNews = () => (
+const TeamStory = () => (
   <div className='OurTeamPicture'>
     <div className='OurTeamOpaity'>
       <Grid container textAlign='center' verticalAlign='middle' className='TextGrid'>
@@ -20,4 +20,4 @@ const LatestNews = () => (
   </div>
 );
 
-export default LatestNews;
+export default TeamStory;
