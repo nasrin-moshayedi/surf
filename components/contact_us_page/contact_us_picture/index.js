@@ -4,7 +4,7 @@ import './contact_us_picture.css';
 
 const ContactUsPicture = () => (
   <div className='ContactPicture Picture'>
-    <div className='ContactPictureOpaity PictureOpaity'>
+    <div className='PictureOpaity'>
       <Grid container textAlign='center' verticalAlign='middle' className='TextGrid'>
         <Grid.Column width={10} className='PictureText'>
           <h1 className='DarkGrey PictureTextTitle'>Contact US</h1>
