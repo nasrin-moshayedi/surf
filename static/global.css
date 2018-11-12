@@ -70,3 +70,7 @@
 .TextGrid {
   margin-top: 210px !important;
 }
+
+.PhoneIcon {
+  transform: rotateY(180deg) !important;
+}
