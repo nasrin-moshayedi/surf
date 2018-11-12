@@ -3,11 +3,11 @@ import {Grid} from 'semantic-ui-react';
 import './team_story.css';
 
 const TeamStory = () => (
-  <div className='OurTeamPicture'>
-    <div className='OurTeamOpaity'>
+  <div className='Picture OurTeamPicture'>
+    <div className='PictureOpaity OurTeamOpaity'>
       <Grid container textAlign='center' verticalAlign='middle' className='TextGrid'>
         <Grid.Column width={10} className='PictureText'>
-          <h1 className='OurStoryTitle'>Our Story</h1>
+          <h1 className='PictureTextTitle'>Our Story</h1>
           <h3> SurfEllent team has more than 10 years of experience in developing
             and advancing anti-icing coatings. SurfEllent company was founded
             at the University of Houston in 2017. Our mission at SurfEllent is
