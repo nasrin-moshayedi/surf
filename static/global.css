@@ -38,3 +38,34 @@
 .PaddingBottom {
   padding-bottom: 70px !important;
 }
+
+.Picture {
+  background-size: cover !important;
+  height: 765px;
+  margin-top: 60px !important;
+}
+
+.PictureOpaity {
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 49px;
+  background: #b9b9b79c;
+  left: 0;
+}
+
+.PictureText {
+  position: absolute;
+  text-align: center;
+  background: #c1c1c180;
+  padding: 20px 10px;
+  border-radius: 10px;
+}
+
+.PictureTextTitle {
+  margin: 10px !important;
+}
+
+.TextGrid {
+  margin-top: 210px !important;
+}
