@@ -1,0 +1,17 @@
+.IconStyle {
+  margin: -15px -20px 5px !important;
+}
+
+.IconGrid {
+  background: #33997a !important;
+  text-align: center !important;
+  border-radius: 50% !important;
+  width: 10px !important;
+  margin: 16px !important;
+  height: 27px !important;
+  padding: 25px !important;
+}
+
+.MainGrid {
+  margin: 50px 0 70px !important;
+}
