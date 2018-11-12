@@ -3,7 +3,7 @@ import {Button, Form, Grid, TextArea} from 'semantic-ui-react';
 import './contact_us_form.css';
 
 const ContactUsForm = () => (
-  <Grid container>
+  <Grid container className='MainGrid'>
     <Form>
       <Form.Group widths='equal'>
         <Grid container>
