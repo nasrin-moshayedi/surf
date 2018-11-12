@@ -1,0 +1,32 @@
+.OurTeamPicture {
+  background: url('/static/images/contact-us.jpg') center;
+  background-size: cover;
+  height: 765px;
+  margin-top: 60px !important;
+}
+
+.OurTeamOpaity {
+  display: block;
+  width: 100%;
+  height: 763px;
+  position: absolute;
+  top: 49px;
+  background: #b9b9b79c;
+  left: 0;
+}
+
+.PictureText {
+  position: absolute;
+  text-align: center;
+  background: #c1c1c180;
+  padding: 20px 10px;
+  border-radius: 10px;
+}
+
+.OurStoryTitle {
+  margin: 10px !important;
+}
+
+.TextGrid {
+  margin-top: 210px !important;
+}
