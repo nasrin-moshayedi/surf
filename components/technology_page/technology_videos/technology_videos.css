@@ -1,0 +1,28 @@
+.TechnologyVideosMainGrid {
+  margin: 100px
+}
+
+.VideoText {
+  background: white;
+  text-align: left !important;
+  box-shadow: 2px 2px 17px -5px #d2c6c6;
+  padding: 40px 25px 20px !important;
+  margin-bottom: 50px !important;
+}
+
+.LightGreyText {
+  color: #8c8b8ac9;
+  margin-bottom: 30px !important;
+}
+
+.Purple {
+  color: #520f5c;
+}
+
+.IconColor {
+  color: #00000066;
+}
+
+.CardContentStyle {
+  padding: 25px 10px;
+}
