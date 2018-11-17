@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 import MyLayout from '../layouts/my_layout';
-import ContactUs from './../components/contact_us_page/contact_us';
+import Technology from './../components/technology_page/technology';
 
 class Index extends Component {
   render() {
     return (
       <div>
         <MyLayout>
-          <ContactUs/>
+          <Technology/>
         </MyLayout>
       </div>
     );
