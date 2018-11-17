@@ -13,5 +13,6 @@
 }
 
 .MainGrid {
-  margin: 50px 0 70px !important;
+  margin-top: 50px !important;
+  padding-bottom: 70px !important;
 }
