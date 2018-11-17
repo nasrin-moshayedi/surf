@@ -42,13 +42,13 @@
 .Picture {
   background-size: cover !important;
   height: 765px;
-  margin-top: 60px !important;
+  margin-top: 81px !important;
 }
 
 .PictureOpaity {
   display: block;
   width: 100%;
-  height: 777px;
+  height: 797px;
   position: absolute;
   top: 49px;
   background: #b9b9b79c;
