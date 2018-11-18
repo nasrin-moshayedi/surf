@@ -24,5 +24,17 @@
 }
 
 .CardContentStyle {
-  padding: 25px 10px;
+  padding: 15px 30px !important;
+}
+
+.ShareIcon {
+  margin: 10px;
+}
+
+.CardStyle {
+  text-align: left;
+}
+
+.HeaderStyle {
+  margin: 10px 0 !important;
 }
