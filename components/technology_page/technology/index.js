@@ -10,7 +10,6 @@ class TechnologyIndex extends Component {
         <TechnologyVideos/>
         <TechnologyInfo/>
         <Technology_applications/>
-
       </div>
     );
   }
