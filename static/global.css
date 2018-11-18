@@ -74,3 +74,8 @@
 .PhoneIcon {
   transform: rotateY(180deg) !important;
 }
+
+.CardGrid {
+  display: flex !important;
+  justify-content: center !important;
+}
