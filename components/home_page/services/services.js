@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 import {Grid, Image} from 'semantic-ui-react';
-// import './services.css';
 
-let reversess;
+// import './services.css';
 
 class Services extends Component {
   render() {
-    this.props.reverse ? (reversess = 'computer') : (undefined);
+    const reversed = this.props.reverse ? 'computer' : undefined;
+
     return (
-      <Grid container reversed={reversess} verticalAlign='middle' className='PaddingBottom'>
+      <Grid container reversed={reversed} verticalAlign='middle' className='PaddingBottom'>
         <Grid.Column width={10} className='WhiteBackground'>
           <h3 className='DarkGrey'>Powertransmissionlines</h3>
           <h5 className='DarkGrey'>Extremeandfluctuatingweatherconditions,includinghigh
