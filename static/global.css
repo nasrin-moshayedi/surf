@@ -79,3 +79,7 @@
   display: flex !important;
   justify-content: center !important;
 }
+
+.PaddingZero {
+  padding: 0 !important;
+}
