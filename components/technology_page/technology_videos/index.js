@@ -1,6 +1,6 @@
 import React from 'react';
 import {Divider, Grid, Icon, Image} from 'semantic-ui-react';
-import Card from '.../global_components/card';
+import Card from '../../global_components/card';
 import './technology_videos.css';
 
 const TechnologyVideos = () => (
