@@ -9,8 +9,13 @@ const TechnologyApplications = () => (
       <Grid.Column width={16}>
         <h1 className='CenterText DarkGrey'>Application</h1>
       </Grid.Column>
-      {[0, 1, 2].map(item => <Grid.Column className='CardGrid' computer={5} tablet={8} mobile={8}><Card
-        key={item}/></Grid.Column>)}
+      {
+        [0, 1, 2].map(item =>
+          <Grid.Column key={item} className='CardGrid' computer={5} tablet={8} mobile={8}>
+            <Card key={item}/>
+          </Grid.Column>,
+        )
+      }
     </Grid>
   </div>
 );

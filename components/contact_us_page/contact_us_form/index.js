@@ -8,27 +8,28 @@ const ContactUsForm = () => (
       <Form.Group widths='equal'>
         <Grid container>
           <Grid.Column computer={8} tablet={15}>
-            <Form.Input
-              fluid
+            <Form.InputxXL fluid
               id='form-subcomponent-shorthand-input-first-name'
               label='First name'
               placeholder='First name'
             />
           </Grid.Column>
           <Grid.Column computer={8} tablet={15}>
-            <Form.Input
-              fluid
+            <Form.Input fluid
               id='form-subcomponent-shorthand-input-last-name'
               label='Last name'
               placeholder='Last name'
             />
           </Grid.Column>
           <Grid.Column computer={8} tablet={15}>
-            <Form.Input label='Email' id='form-subcomponent-shorthand-input-email' placeholder='info@surfellent.com'/>
+            <Form.Input
+              label='Email'
+              id='form-subcomponent-shorthand-input-email'
+              placeholder='info@surfellent.com'
+            />
           </Grid.Column>
           <Grid.Column computer={8} tablet={15}>
-            <Form.Input
-              fluid
+            <Form.Input fluid
               id='form-subcomponent-shorthand-input-phone'
               label='Phone'
               placeholder='+1 (617) 416-2782'

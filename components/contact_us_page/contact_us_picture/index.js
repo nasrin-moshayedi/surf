@@ -8,9 +8,11 @@ const ContactUsPicture = () => (
       <Grid container textAlign='center' verticalAlign='middle' className='TextGrid'>
         <Grid.Column width={10} className='PictureText'>
           <h1 className='DarkGrey PictureTextTitle'>Contact US</h1>
-          <h2 className='DarkGrey'>you are ineterested in working with SurfEllent, please fill out the form and we will
+          <h2 className='DarkGrey'>
+            you are ineterested in working with SurfEllent, please fill out the form and we will
             be in touch as
-            soon as possible.</h2>
+            soon as possible.
+          </h2>
         </Grid.Column>
       </Grid>
     </div>

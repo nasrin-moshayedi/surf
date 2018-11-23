@@ -10,9 +10,11 @@ const TeamMemberCard = () => (
           <Icon name='location arrow' size='large' className='IconStyle GreyText'/>
         </Grid.Column>
         <Grid.Column width={10}>
-          <p>UH TechnologyPark 5000
+          <p>
+            UH TechnologyPark 5000
             GulfFreeway Bldg5, Rm 144
-            Houston,TX,77023</p>
+            Houston,TX,77023
+          </p>
         </Grid.Column>
       </Grid>
     </Grid.Column>

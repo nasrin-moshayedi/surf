@@ -8,12 +8,14 @@ const TeamStory = () => (
       <Grid container textAlign='center' verticalAlign='middle' className='TextGrid'>
         <Grid.Column width={10} className='PictureText'>
           <h1 className='PictureTextTitle'>Our Story</h1>
-          <h3> SurfEllent team has more than 10 years of experience in developing
+          <h3>
+            SurfEllent team has more than 10 years of experience in developing
             and advancing anti-icing coatings. SurfEllent company was founded
             at the University of Houston in 2017. Our mission at SurfEllent is
             to supplant traditional temporary anti-icing coatings with durable
             permanent coatings that could be sprayed on any surface to prevent
-            ice accumulation.</h3>
+            ice accumulation.
+          </h3>
         </Grid.Column>
       </Grid>
     </div>

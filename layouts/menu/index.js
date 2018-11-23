@@ -1,13 +1,17 @@
 import React, {Component} from 'react';
+import Router from 'next/router';
 import {Menu, Segment} from 'semantic-ui-react';
 import './menu.css';
 
-export default class MainMenu extends Component {
-  state = {activeItem: 'home'};
-  handleItemClick = (e, {name}) => this.setState({activeItem: name});
+class MainMenu extends Component {
+  getRouteName = (name) => routeNames[name];
+
+  handleItemClick = (e, {name}) => {
+    Router.push(this.getRouteName(name));
+  };
 
   render() {
-    const {activeItem} = this.state;
+    const {activeItem} = this.props;
     return (
       <Segment inverted className='MenuSegment'>
         <Menu pointing borderless inverted secondary size='massive'>
@@ -41,3 +45,13 @@ export default class MainMenu extends Component {
     );
   }
 }
+
+const routeNames = {
+  'home': '/',
+  'team member': '/aboutus',
+  'technology': '/technology',
+  'news': '/news',
+  'contact us': '/contactus',
+};
+
+export default MainMenu;
