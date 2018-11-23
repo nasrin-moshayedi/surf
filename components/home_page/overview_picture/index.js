@@ -7,9 +7,7 @@ const HomeImage = () => (
     <Image src='/static/images/airplane.jpg' fluid/>
     <Grid container textAlign='center' className='CenterText'>
       <Grid.Column width={16}>
-        <Header as='h1' className='DarkGrey'>
-          Over View
-        </Header>
+        <Header as='h1' className='DarkGrey'>Over View</Header>
       </Grid.Column>
       <Grid.Column width={16}>
         <p>
@@ -21,9 +19,7 @@ const HomeImage = () => (
           hasstartedmanufacturinganti-icingsurfaceswithextremelylow iceadhesion
           andexceptionaldurabilityundersevereenvironmentalconditions.
         </p>
-        <p className='ReadMore'>
-          read more
-        </p>
+        <p className='ReadMore'>read more</p>
       </Grid.Column>
     </Grid>
   </div>

@@ -10,9 +10,12 @@ class Services extends Component {
     return (
       <Grid container reversed={reversed} verticalAlign='middle' className='PaddingBottom'>
         <Grid.Column width={10} className='WhiteBackground'>
-          <h3 className='DarkGrey'>Powertransmissionlines</h3>
-          <h5 className='DarkGrey'>Extremeandfluctuatingweatherconditions,includinghigh
-            humidity,freezingtemperatures....</h5>
+          <h3 className='DarkGrey'>
+            Powertransmissionlines
+          </h3>
+          <h5 className='DarkGrey'>
+            Extremeandfluctuatingweatherconditions,includinghigh humidity,freezingtemperatures....
+          </h5>
           <h5 className='ReadMore'>Read more</h5>
         </Grid.Column>
         <Grid.Column width={6}>

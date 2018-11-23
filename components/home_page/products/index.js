@@ -8,12 +8,16 @@ class ProductIndex extends Component {
     return (
 
       <Grid container className='ProductDiv PaddingBottom'>
-        <Grid.Column width={16}><h1 className='DarkGrey CenterText'>Products</h1></Grid.Column>
-        {[0, 1, 2, 3].map(item =>
-          <Grid.Column key={item} mobile={16} tablet={8} computer={4}>
-            <Product key={item} large={false}/>
-          </Grid.Column>,
-        )}
+        <Grid.Column width={16}>
+          <h1 className='DarkGrey CenterText'>Products</h1>
+        </Grid.Column>
+        {
+          [0, 1, 2, 3].map(item =>
+            <Grid.Column key={item} mobile={16} tablet={8} computer={4}>
+              <Product key={item} large={false}/>
+            </Grid.Column>,
+          )
+        }
       </Grid>
     );
   }

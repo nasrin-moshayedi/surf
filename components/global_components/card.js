@@ -5,10 +5,15 @@ const CardComponent = () => (
   <Card className='CardStyle'>
     <Image src='/static/images/sh1.jpg'/>
     <Card.Content className='CardContentStyle'>
-      <Card.Header className='HeaderStyle'><h5 className='BlueTitle'>SurfEllent air flio anti-icing experiment</h5>
+      <Card.Header className='HeaderStyle'>
+        <h5 className='BlueTitle'>
+          SurfEllent air flio anti-icing experiment
+        </h5>
       </Card.Header>
       <Card.Description>
-        <p className='LightGreyText'>from <span className='Purple'>SurfEllentLLC</span></p>
+        <p className='LightGreyText'>
+          from <span className='Purple'>SurfEllentLLC</span>
+        </p>
       </Card.Description>
     </Card.Content>
     <Card.Content extra className='CardContentStyle'>
