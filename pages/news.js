@@ -1,17 +1,17 @@
 import React, {Component} from 'react';
 import DefaultLayout from '../layouts/default_layout';
-import HomeIndex from './../components/home_page/home';
+import News from './../components/news_page/news';
 
-class IndexPage extends Component {
+class NewsPage extends Component {
   render() {
     return (
       <div>
-        <DefaultLayout activeItem='home'>
-          <HomeIndex/>
+        <DefaultLayout activeItem='news'>
+          <News/>
         </DefaultLayout>
       </div>
     );
   }
 }
 
-export default IndexPage;
+export default NewsPage;
