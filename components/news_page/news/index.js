@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import LastNews from './../latest_news';
-import NewsCard from './../news_cards';
+import LastNews from '../latest_news';
+import NewsCard from '../news_cards';
 
 class NewsIndex extends Component {
   render() {

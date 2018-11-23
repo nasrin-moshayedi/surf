@@ -1,6 +1,6 @@
 import React from 'react';
 import {Grid} from 'semantic-ui-react';
-import Card from './../../global_components/card';
+import Card from '../../global_components/card';
 import './technoligy_application.css';
 
 const TechnologyApplications = () => (

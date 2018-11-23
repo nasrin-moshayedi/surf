@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import ContactUsPicture from './../contact_us_picture';
-import ContactUsInfo from './../contact_info';
-import ContactUsForm from './../contact_us_form';
+import ContactUsPicture from '../contact_us_picture';
+import ContactUsInfo from '../contact_info';
+import ContactUsForm from '../contact_us_form';
 
 class ContactUsIndex extends Component {
   render() {
