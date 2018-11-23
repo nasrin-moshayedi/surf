@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Grid, Image} from 'semantic-ui-react';
-import './services.css';
+// import './services.css';
 
 let reversess;
 

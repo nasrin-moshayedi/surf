@@ -1,6 +1,6 @@
 import React from 'react';
 import Services from './services';
-import './services.css';
+// import './services.css';
 
 const ServicesIndex = () => (
   <div>
