@@ -8,7 +8,7 @@ const ContactUsForm = () => (
       <Form.Group widths='equal'>
         <Grid container>
           <Grid.Column computer={8} tablet={15}>
-            <Form.InputxXL fluid
+            <Form.Input fluid
               id='form-subcomponent-shorthand-input-first-name'
               label='First name'
               placeholder='First name'
