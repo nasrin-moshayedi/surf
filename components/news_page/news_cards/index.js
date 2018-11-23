@@ -9,7 +9,7 @@ const LastNewsCard = () => (
         <h1>News</h1>
       </Grid.Column>
       {[0, 1, 2].map(item =>
-        <Grid.Column className='PaddingZero' computer={16} tablet={16} mobile={16}>
+        <Grid.Column key={item} className='PaddingZero' computer={16} tablet={16} mobile={16}>
           <Segment className='NewsSegmentStyle'>
             <Grid textAlign='left' vectiralign='middle'>
               <Grid.Column width={5}>

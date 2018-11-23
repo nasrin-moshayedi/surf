@@ -20,9 +20,9 @@ const TechnologyVideos = () => (
       </Grid.Column>
 
       {[0, 1, 2, 3, 4, 5, 6, 7].map(item =>
-        <Grid.Column computer={4} tablet={5} mobile={8}>
+        <Grid.Column key={item} computer={4} tablet={5} mobile={8}>
           <Card key={item}/>
-        </Grid.Column>
+        </Grid.Column>,
       )}
     </Grid>
   </div>
