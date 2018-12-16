@@ -83,3 +83,11 @@
 .ZeroPadding {
   padding: 0 !important;
 }
+
+.PurpleText {
+  color: #520f5c;
+}
+
+.WhiteColor {
+  background: #fff !important;
+}
