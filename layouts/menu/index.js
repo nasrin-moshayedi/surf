@@ -21,6 +21,11 @@ class MainMenu extends Component {
             onClick={this.handleItemClick}
           />
           <Menu.Item
+            name='product'
+            active={activeItem === 'product'}
+            onClick={this.handleItemClick}
+          />
+          <Menu.Item
             name='team member'
             active={activeItem === 'team member'}
             onClick={this.handleItemClick}
@@ -52,6 +57,7 @@ const routeNames = {
   'technology': '/technology',
   'news': '/news',
   'contact us': '/contactus',
+  'product': '/product'
 };
 
 export default MainMenu;
