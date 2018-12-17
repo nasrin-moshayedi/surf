@@ -91,3 +91,12 @@
 .WhiteColor {
   background: #fff !important;
 }
+
+.GreenColor {
+  color: #449d44 !important;
+}
+
+.DisplayStyle {
+  display: block;
+  width: 100%;
+}
