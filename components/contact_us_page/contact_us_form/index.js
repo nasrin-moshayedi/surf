@@ -25,14 +25,14 @@ const ContactUsForm = () => (
             <Form.Input
               label='Email'
               id='form-subcomponent-shorthand-input-email'
-              placeholder='info@surfellent.com'
+              placeholder='info@gmail.com'
             />
           </Grid.Column>
           <Grid.Column computer={8} tablet={15}>
             <Form.Input fluid
               id='form-subcomponent-shorthand-input-phone'
               label='Phone'
-              placeholder='+1 (617) 416-2782'
+              placeholder='+1 (123) 123-1234'
             />
           </Grid.Column>
           <Grid.Column computer={16} tablet={15}>

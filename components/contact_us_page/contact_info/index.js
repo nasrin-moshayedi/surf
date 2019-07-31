@@ -11,9 +11,8 @@ const TeamMemberCard = () => (
         </Grid.Column>
         <Grid.Column width={10}>
           <p>
-            UH TechnologyPark 5000
-            GulfFreeway Bldg5, Rm 144
-            Houston,TX,77023
+            Tabriz
+            Tabriz
           </p>
         </Grid.Column>
       </Grid>
@@ -24,7 +23,7 @@ const TeamMemberCard = () => (
           <Icon name='phone' size='large' className='IconStyle GreyText'/>
         </Grid.Column>
         <Grid.Column width={10}>
-          <p>+1(617)416-2782</p>
+          <p>+1(123)123-1234</p>
         </Grid.Column>
       </Grid>
     </Grid.Column>
@@ -34,7 +33,7 @@ const TeamMemberCard = () => (
           <Icon name='mail' size='large' className='IconStyle GreyText'/>
         </Grid.Column>
         <Grid.Column width={10}>
-          <p>info@surfellent.com</p>
+          <p>info@gmail.com</p>
         </Grid.Column>
       </Grid>
     </Grid.Column>

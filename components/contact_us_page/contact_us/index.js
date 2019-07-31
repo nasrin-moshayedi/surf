@@ -6,11 +6,13 @@ import ContactUsForm from '../contact_us_form';
 class ContactUsIndex extends Component {
   render() {
     return (
-      <div className='BodyBackground'>
-        <ContactUsPicture/>
-        <ContactUsInfo/>
-        <ContactUsForm/>
-      </div>
+        <div>
+            <div className='BodyBackground'>
+                <ContactUsPicture/>
+                <ContactUsInfo/>
+                <ContactUsForm/>
+            </div>
+        </div>
     );
   }
 }

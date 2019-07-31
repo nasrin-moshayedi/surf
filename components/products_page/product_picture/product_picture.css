@@ -1,0 +1,12 @@
+.ProductPicture {
+  background: url('/static/images/i4.jpg') center;
+}
+
+.ProductPictureText {
+  background: #00000012 !important;
+}
+
+.ProductTextTitle {
+  color: #3b024c;
+}
+

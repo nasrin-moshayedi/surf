@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import Link from 'next/link';
 import {Button, Checkbox, Form, Grid} from 'semantic-ui-react';
-
-class LoginIndex extends Component {
+import './signup.css';
+class UserInformation extends Component {
   render() {
     return (
       <div>
@@ -37,4 +37,5 @@ class LoginIndex extends Component {
   }
 }
 
-export default LoginIndex;
+export default UserInformation;
+

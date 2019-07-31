@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Link from "next/link";
 import DefaultLayout from '../layouts/default_layout';
 import HomeIndex from '../components/home_page/home';
 
@@ -7,7 +8,9 @@ class IndexPage extends Component {
     return (
       <div>
         <DefaultLayout activeItem='home'>
-          <HomeIndex/>
+            <Link path="/">
+                <HomeIndex/>
+            </Link>
         </DefaultLayout>
       </div>
     );
